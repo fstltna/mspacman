@@ -1,0 +1,430 @@
+***************************************************************************
+*                       CHAMP Ms. Pac-em, ver. 1.5                        *
+*                           Registered version                            *
+*                        Copyright (C) 1996, 1997                         *
+*                      CHAMProgramming Corporation                        *
+*                            Revised 10/11/97                             *
+***************************************************************************
+
+----------------
+| INTRODUCTION |
+----------------
+
+CHAMProgramming is proud to present our latest release, CHAMP Ms. Pac-em!!
+Based on CHAMP Ms. Pacman, this version offers superb graphics,
+Soundblaster support and enhanced gameplay that truly makes you feel
+like you're in an arcade!  A completely re-designed user interface
+is now easier and more powerful than before.  A complete remake of the
+look and feel has created a truly enjoyable game.
+
+We hope you enjoy the results.
+
+============================================================================
+
+-----------
+| CREDITS |
+-----------
+
+The following people have had significant contributions to the making
+of this game:
+
+John Champeau     - Game Design, Programming & Sound.
+Christina Jackson - Game Design, Research, and Testing
+Paul Champeau     - Game Design and Testing.  Also the creator of CHAMP Cable!
+
+Special thanks to Lynne Kaschke for her work on the intermission songs.
+
+
+---------------------
+| LICENSE AGREEMENT |
+---------------------
+
+This is the full version of CHAMP Ms. Pac-em.  As the user, you are entitled to 
+make a backup copy of this program for archival purposes only.
+Unauthorized duplication or distribution of this product is strictly
+prohibited. 
+
+Though every effort has been made to ensure that CHAMP Ms. Pac-em will operate 
+with any PC that meets the requirements specified, CHAMProgramming is not
+responsible for anything that may occur as a result of the use of this 
+program.  
+
+CHAMP Ms. Pac-em is sold "as is".  Though comments and suggestions are welcomed,
+CHAMProgramming cannot promise that any changes will be made to this 
+product at any time.  
+
+
+----------------
+| REQUIREMENTS |
+----------------
+
+CHAMP Ms. Pac-em requires the following to run:
+
+  * 386/33Mhz or better IBM PC or 100% Compatible
+  * DOS ver. 3.1 or better
+  * VGA Graphics
+  * 450K of free conventional memory
+
+CHAMP Ms. Pac-em also supports the following:
+  * 1 or 2 analog joysticks
+  * Soundblaster card or compatible
+  * Microsoft compatible mouse
+  * Digital joystick using CHAMP Cable(tm)
+
+The following configuration is recommended to play CHAMP Ms. Pac-em:
+  * 486/33
+  * Soundblaster 16
+  * VESA compatible VGA card
+  * 550K of free conventional memory
+  * Digital joystick using CHAMP Cable(tm) or Gravis PC-Gamepad(tm)
+
+
+--------------------------
+| INSTALLING THE PROGRAM |
+--------------------------
+
+To install CHAMP Ms. Pac-em, first insert the CHAMP Ms. Pac-em disk into drive A.
+The following instructions will be determined by the operating system
+you are using:
+
+DOS Users:
+
+1) From the command line, type A:\INSTALL and press ENTER.  Follow the
+on screen prompts to install the program.
+
+Windows 3.x Users:
+
+1) Start Windows.
+2) Select File, Run.
+3) Type A:\SETUP and press ENTER.  Follow the onscreen prompts.  
+
+Once the installation is complete, a group called "CHAMP Arcade" will be
+created with an program item called "CHAMP Ms. Pac-em".
+
+Windows 95 Users:
+
+1) Click on Start.
+2) Click on Run.
+3) Type A:\SETUP and press ENTER.  Follow the onscreen prompts.
+
+Once the installation is complete, a group called "CHAMP Arcade" will be
+created with an program item called "CHAMP Ms. Pac-em".
+
+CHAMP Ms. Pac-em has been successfully tested under the following 
+operating systems:
+
+- DOS 3.1 and greater
+- Windows 3.x and greater
+- Windows 95/NT
+- OS/2 and OS/2 Warp
+
+Note that although CHAMP Ms. Pac-em will run under Windows 3.x, Windows 95, 
+OS/2 and OS/2 Warp, you should run the game under DOS for optimal
+performance.
+
+
+-----------------------
+| RUNNING THE PROGRAM |
+-----------------------
+     
+The following are the files CHAMP Ms. Pac-em needs to run.  CHAMP Ms. Pac-em will NOT
+run unless these three files are found:
+
+  * MSPACEM.EXE    - This is the program.
+  * MSPACEM.RES    - Contains necessary graphics and sounds.
+  * MSPACEM.HLP    - Contains on-line help for CHAMP Ms. Pac-em
+
+The following files are created after running CHAMP Ms. Pac-em:
+  * MSPACEM.CFG    - Configuration file.
+  * MSPACEM.HOF    - Top ten hall of fame.
+  * JOYSTICK.CFG   - Joystick calibration values.
+
+DOS Users:
+
+To run CHAMP Ms. Pac-em, switch to the directory where you have copied the program
+and type 'MSPACEM' and press ENTER.  If you have trouble running CHAMP Ms. Pac-em,
+see the Troubleshooting section.  By default, CHAMP Ms. Pac-em is installed in
+the directory C:\CHAMP\MSPACEM.
+
+A batch file has also been set up in the CHAMP directory.  To run the 
+program from this directory, switch to the directory, type 'MSPACEM' and 
+press ENTER.
+
+Windows 3.x Users:
+
+1) Open up the CHAMP Arcade group.
+2) Double-click on the CHAMP Ms. Pac-em icon.
+
+Windows 95 Users:
+
+1) Click on Start.
+2) Select Programs.
+3) Select CHAMP Arcade.
+4) Select CHAMP Ms. Pac-em.
+
+Once the program loads, you will see the CHAMP Intro screen.  Next, the
+CHAMP Ms. Pac-em title screen will be shown:
+
+  * START GAME (1P/2P): Press ENTER to play the game; use the arrow keys to
+    change between 1 and 2 players.
+  * OPTIONS: Choose this to view the many options available for CHAMP Ms. Pac-em.
+  * EXIT GAME: Choose this to exit CHAMP Ms. Pac-em.
+
+NOTE: You can press F1 at any time to get context-sensitive help.
+
+-----------
+| OPTIONS |
+-----------
+
+There are several options available in CHAMP Invaders:
+
+   * GAME SETTINGS
+   * CONTROLLERS
+   * SOUND
+   * HIGH SCORES
+   * INSTRUCTIONS
+   * REGISTRATION
+   * ABOUT MS. PAC-EM...
+
+
+GAME SETTINGS
+-------------
+
+Choose this option to set the number of players, difficulty level, game
+mode and game speed.  Note that there are two different game modes:
+
+CLASSIC
+
+Classic Mode plays more like the arcade, with arcade levels and bonuses.
+
+CHAMP
+
+CHAMP Mode includes the Classic Mode with more enhancements, including
+more levels and bonuses!
+
+CONTROLLERS
+-----------
+
+Choose this option to set the controllers for both players.  Selections
+include Joystick (A or B), Keyboard (1 or 2), Mouse, or CHAMP Cable.  Note
+that each controller has it's own option:
+
+Joystick A or B:  Enable/Calibrate
+Keyboard 1 or 2:  Define Keys
+		  Mouse:  Adjust sensitivity
+    CHAMP Cable:  Choose the port it's connected to (LPT1, 2, 3, or none)
+
+Navigating menus:  Once a control is active, you can use it to navigate 
+through the menus.  Unfortunately, if you don't calibrate your joystick
+correctly, this could cause problems.  
+
+If this occurs, press F4 to disable all joysticks.
+
+SOUND
+-----
+
+This option allows you to turn sound on and off and choose the way sounds
+are played during the game, as well as adjust the volume (Soundblaster
+only).  You can also disable and configure your sound card here.
+
+HIGH SCORES
+-----------
+
+This will display the top 10 scores and the names of the players who
+accomplished the feat.
+
+INSTRUCTIONS
+------------
+
+Choose this to view the many pages of on-line instructions for CHAMP Ms. Pac-em.
+
+
+REGISTRATION
+------------
+
+This will display registration information and contact information for
+CHAMProgramming.
+
+
+ABOUT MS. PAC-EM
+--------------
+
+Choose this to view the names of the people who made CHAMP Ms. Pac-em
+possible, as well as version information.
+
+
+--------------------
+| PLAYING THE GAME |
+--------------------
+
+The object of CHAMP Ms. Pac-em is to eat as many dots, fruits, and pretzels
+you can while avoiding the four goblins.  With each maze you clear, the
+goblins become faster and more difficult to avoid.  In the corners of the
+mazes are power pills.  If Ms. Pac-em eats one, the goblins will turn
+blue for a few seconds, at which time she can eat them!  Be careful, though,
+because once the goblins flash back to normal they'll be after her again!
+
+After certain levels, an intermission screen will be shown which tells
+the story about Ms. Pac-em and Pac-em.
+
+
+CHAMP Mode Enhancements
+
+Playing Ms. Pac-em in CHAMP Mode is similar to Classic mode, with these
+additions:
+
+More Mazes!
+
+CHAMP Mode allows you to play with 9 different mazes during a game,  
+including the special CHAMP Maze!  You can select which mazes to
+play and in which order by choosing SELECT MAZES under GAME OPTIONS.
+
+
+The Dot Machine
+---------------
+
+This is the machine that puts down the dots for each maze before you
+play.  Unfortunately, if you take too much time to clear a maze, the
+Dot Machine will come out and start dropping down more dots to eat!
+The Dot Machine stops when you eat it or when it runs out of dots to
+put down.  Eating the Dot Machine scores 100-1000 points, depending
+on how many dots it has left.  As many as two Dot Machines can appear
+at once.  The Dot Machine only appears after Level 2 is cleared.
+
+The Chill Pill
+--------------
+
+The Chill Pill is a special power pill that makes it's way around the 
+maze looking for a way out.  Eating the Chill Pill will freeze the
+ghosts for a short period of time.  Once they're frozen, you can ram
+the ghosts for 400 points each.  Be careful - when the ghosts start
+melting they're ready to start chasing you again!  You can pass
+through ghosts while they're freezing or melting.
+
+The Fast Button
+---------------
+
+In both Classic and CHAMP Mode, you can press the joystick button to 
+speed up the game.  Be careful though - both you and the ghosts 
+go much faster!  Keyboard users should press the key defined to
+the fast button (usually the Control key) and mouse users should
+press the left mouse button.
+
+
+Game Notes
+----------
+
+During the game, you can press any of the following keys:
+
+  * F1  - Brings up the help screen.
+  * F5  - Brings up the Controller options.
+  * F6  - Brings up the Sound options.
+  * F9  - Toggles the sound on and off.
+  * F10 - Resets the game.
+  * F12 - Pauses the game.  Press the spacebar or tap a button to resume.
+  * Esc - Brings up the Options menu.  Press ESC to resume the game.
+
+
+
+--------------------
+| TROUBLE SHOOTING |
+--------------------
+
+The following switches are used from the command line to disable certain
+auto-detection features of CHAMP Ms. Pac-em if you are experiencing problems
+running the program:
+
+  -s : Disable the auto detection of the sound card.
+  -j : Disable any analog joysticks that are being used.
+  -d : Disable any digital joysticks that are being used.
+  -m : Mute all sounds.  
+  -3 : Disable the auto-detection of a 386.  Use this ONLY if you have a
+	   386 PC or better!
+  -a : Disable the auto-detection of the sound card.  This should be used
+       when the auto-detection routine is incorrectly identifying your
+       sound card's settings.  Be sure to manually configure your card
+       by choosing the Configure Soundcard option under Sound.
+  -t : Skip the CHAMP title page.
+
+For example:  To disable the sound card detection, you would type:
+
+   MSPACEM -s
+
+Sound Card problems
+
+You must have a 100% compatible Soundblaster card.  To manually configure your
+sound card, choose Configure Sound Card in the Sound menu (from the Options
+menu).  You will be prompted for the PORT, IRQ, and DMA of your sound card.
+Please consult your user's manual of your sound card for these values.  You
+can always select Auto Detect and let the program try to determine the values,
+though this may lock up your computer.
+
+If you continue to experience problems, please Email CHAMProgramming's
+technical support at:
+
+  support@champgames.com
+
+
+---------------
+| CHAMP CABLE |
+---------------
+
+Play our games the way they are meant to be played!
+
+What is the CHAMP Cable(tm)?
+
+CHAMP Cable(tm) is a 3-foot cable that allows you to plug a standard
+9-pin digital joystick (from the ATARI (R) 2600) into a parallel printer
+port and play all CHAMP Games!!!
+
+  * Digital response -> faster response than analog
+  * NO CALIBRATION!!
+  * Works on LPT1, LPT2 and LPT3
+  * Supports joysticks from the ATARI (R) 2600/7800/400/800/1200/130xe,
+	Commodore (R) 64/128, and Colecovision (R).
+	Also supports digital Wico (R) joysticks.
+  * Lifetime warranty!!
+
+Where can I get those old joysticks?
+
+   * Your attic
+   * Your cellar
+   * Your friend's attic or cellar
+   * Garage and yard sales
+   * For-sale sections of magazines
+
+To order your CHAMP Cable(tm), send a check or money order for $17.95 plus
+$2.00 shipping to:
+
+		 CHAMProgramming Corp.
+		 34-3 Shunpike Road, #187
+		 Cromwell, CT 06416
+		 USA
+
+Please allow 2 weeks for shipping.  Joysticks not included.
+
+---------------
+| OTHER GAMES |
+---------------
+
+CHAMProgramming is currently working on or has released the following games:
+
+	* CHAMP Kong                 Released 3/9/96
+	* CHAMP Ms. Pac-em           Released 11/9/96
+	* CHAMP Pac-em               Released 12/16/96
+	* CHAMP Galaxia              Released 12/24/96
+	* CHAMP Invaders             Released 8/5/97
+	* CHAMP Galagon              Available 11/97
+
+Please note that CHAMP Centiped-em and Asterocks are no longer for sale and
+they cannot be distributed in any way.
+
+For more information on these games, please visit our web site at:
+
+   http://www.champgames.com
+
+If you have any comments or any suggestions for future CHAMP games, feel free
+to contact us at:
+
+   comments@champgames.com
+

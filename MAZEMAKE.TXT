@@ -1,0 +1,248 @@
+***************************************************************************
+*                            CHAMP MazeMaker                              *
+*                          Copyright 1996, 1997                           *
+*                      CHAMProgramming Corporation                        *
+*                               11/25/96                                  *
+***************************************************************************
+
+----------------
+| INTRODUCTION |
+----------------
+
+CHAMProgramming is proud to present MazeMaker, a unique feature of CHAMP
+Ms. Pac-em that allows you to create up to 128 different mazes.
+We hope you enjoy the results.
+
+============================================================================
+-------------------
+| SELECING MAZES  |
+-------------------
+
+To edit or create a maze using CHAMP's MazeMaker, choose Select Mazes 
+from the Game Options menu.  You cannot choose Select Mazes during a game.  
+You must end a game in progress to access the Game Options menu.
+
+Once you've chosen Select Mazes, the Maze Select screen will appear.  
+The following are the functions you can perform on the Maze Select screen:
+
+
+Maze Select
+
+Use the left and right arrow keys to select the maze you wish to change or edit.  
+A white box will highlight the current maze you've selected.  
+
+The table below explains the order of mazes for both Classic and CHAMP mode:
+
+			Classic Mode		CHAMP Mode
+Screen 1		Maze 1			Maze 1
+Screen 2		Maze 1			Maze 2		
+Screen 3		Maze 2			Maze 3
+Screen 4		Maze 2			Maze 4
+Screen 5		Maze 2			Maze 5
+Screen 6		Maze 3			Maze 6
+Screen 7		Maze 3			Maze 7
+Screen 8		Maze 3			Maze 8
+Screen 9		Maze 3			CHAMP Maze!
+Screen 10		Maze 4			Maze 1
+Screen 11		Maze 4			Maze 2
+Screen 12		Maze 4			Maze 3
+Screen 13		Maze 4			Maze 4
+Screen 14		Maze 3			Maze 5
+Screen 15 		Maze 3			Maze 6
+Screen 16		Maze 3			Maze 7
+Screen 17		Maze 3			Maze 8
+Screen 18		Maze 4			CHAMP Maze
+Screen 19		Maze 4			Repeat Screens 10-18
+Screen 20		Maze 4		
+Screen 21   		Maze 4			
+Screen 22 	- 	Repeat Screen 14-21	
+
+In Classic Mode, there are four Maze slots, and in CHAMP Mode there are eight slots.  
+Once you have selected the Maze slot you wish to edit, you can either change the maze 
+for that slot or bring up the Maze Options.
+
+To change the maze in the slot, use the up and down arrow keys to scroll through the 
+available mazes until you see the maze you want.  To bring up the Maze Options for 
+the selected maze, press ENTER.  
+
+
+Maze Options
+
+The Maze Options menu is brought up by pressing ENTER on a selected maze in the 
+Maze Select screen.  This menu will perform actions on both the maze and the 
+Maze Slot selected.  
+
+The Maze Options are:
+
+
+Create a New Maze
+-----------------
+
+This option will bring up MazeMaker with a blank maze.  See the section on
+creating a new maze for more information.
+
+
+Edit the Maze
+-------------
+
+This option will bring up MazeMaker with the current maze.  You cannot edit the 
+four classic mazes and the eight standard CHAMP Mazes. 
+
+
+Copy the Maze
+-------------
+
+This option will bring up MazeMaker with a copy of the selected maze.  Any changes 
+will be saved as a new maze.  
+
+
+Set Default Maze
+----------------
+
+This option will set the Maze Slot to the default maze for that game mode.
+
+
+Delete Maze  
+-----------
+
+This option will permanently delete the selected maze.  You cannot delete the four 
+classic Mazes or the four standard CHAMP Mazes.
+
+
+--------------------
+| USING MAZEMAKER  |
+--------------------
+
+When you run MazeMaker, you will have four sets of icons to use to create your maze:
+
+
+Mode Icons
+----------
+
+There are two mode icons which affect the action of the edit functions:
+
+Add/Delete:  	Highlight this icon to add walls, backdoors, dots and powerpills.  
+			Turn off this option to remove the current edit icon.
+Hotkey:		A
+
+Mirror On/Off: 	Highlight this icon to have your edits mirrored over the left and 
+			right.  Turn it off to make mazes which aren't mirrored.  
+			Note that Backdoor commands are always mirrored.
+Hotkey:		M
+
+
+Edit Icons
+----------
+
+Use these icons to select which edit mode you're in.  You can add or remove Walls, 
+Backdoors, Dots and Powerpills.
+
+
+System Icons
+------------
+
+Undo: 	Click this icon to undo your last edit.  Click it again to undo the 'undo'.
+Hotkey: 	U
+
+Save: 	Click this icon to save the current maze.  This icon will be highlighted 
+		if the current maze is not saved.  You cannot save an invalid maze.  
+		Refer to the section about Valid Mazes for more information.
+Hotkey:	F2
+
+Exit: 	Click this icon to quit MazeMaker.
+Hotkey:	ESC
+
+
+Color Icons
+-----------
+
+Border:  	Click this to bring up a group of 48 colors to choose for the border color.
+Hotkey:	C
+
+Fill: 	Click this to bring up a group of 48 colors to choose for the fill color.
+Hotkey:	L
+
+Dot:  	Click this for colors available for the dots and powerpills.
+Hotkey:	R
+
+Other Functions
+---------------
+To toggle the grid on and off, press G.
+
+To fill the maze with dots, press F.
+
+
+VALID MAZES
+-----------
+
+Although the MazeMaker program is very flexible, there are certain restrictions 
+that must be followed when making a maze.  When you attempt to save an invalid maze, 
+an error message will appear describing the error.  You must correct this error 
+before the program will allow you to save the maze.
+
+These are the types of error messages for invalid mazes:
+
+1) Tunnel too wide: This error occurs when the maze has a tunnel or path which is 
+more than 1 dot in length (only 1 dot can fit).  The cursor will be set to where 
+the error took place.  To correct the error, you must add walls until all tunnels 
+or paths are 1 dot wide. 
+
+2) Dot unreachable:  This error occurs when Ms. Pac-em can't reach at least 1 dot 
+on the screen because the path is block by a wall.  To correct the error, you must 
+remove walls until Ms. Pac-em can reach every dot.  You may also remove the dots 
+that cannot be reached as well.
+
+3) Can't reach goblins:  This error occurs if Ms. Pac-em and the ghosts are completely
+separated by walls.  Note that the Backdoors are not used when validating whether the
+Goblins are reachable or not.  You must remove walls until Ms. Pac-em can reach the
+Goblins.
+
+4) Not enough dots:  You must have at least 100 dots on the screen for a valid maze.  
+To correct the problem, add dots (powerpills included) until there are at least 150 total.
+Note that you don't have to have any powerpills, but you cannot have more than 4.
+
+5) No backdoors:  There must be at least 1 Backdoor on every maze to allow the prizes to
+enter.
+
+6) Backdoor blocked:  Both sides of each backdoor must be reachable by Ms. Pacem.  You 
+must remove walls until a clear path is made.
+
+
+OTHER ERRORS
+------------
+
+There are other errors and common practices you may want to follow.  Although the program
+cannot detect these errors, they may cause serious problems when playing Ms. Pac-em with
+an invalid maze:
+
+1) Bad fill:  If a wall is added at a improper angle (mostly diagnol) to another wall, the
+fill routine may spill into the rest of the maze.  To correct this error, click on Undo.
+If this doesn't work, remove walls until the error is corrected.
+
+2) Bad angles:  Even if an angle doesn't give a bad fill, too many corners can make it
+virtually impossible to move around the maze freely.  Avoid bumps in the maze and stick
+to corners and straightaways.
+
+
+--------------------
+| USING YOUR MAZE  |
+--------------------
+
+Once your maze is created and valid, click on SAVE.  To return to the Select Mazes screen,
+click on Exit.  You will see your newly created maze in the Maze Slot you previously 
+selected.  Note that you can now go to ANY slot and select your new maze.  To test your
+maze immediately, put it in Maze Slot 1 and start a new game.  Have fun!
+
+NOTE:  There is a limit of 128 mazes which can be stored at once.  If you get an error that
+the program cannot create another maze, you must delete a maze to free up a slot.  
+
+
+----------------
+|  OTHER HELP  |
+----------------
+
+If you have any other questions regarding MazeMaker or CHAMP Ms. Pac-em, please Email the
+CHAMP Games Technical Support at:
+
+support@champgames.com
+
